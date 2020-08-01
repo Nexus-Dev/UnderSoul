@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/" #Github
+displayURL="http://example.com/" #CurseForge
+logoFile="undersoul.png" #optional
+credits="Pixel Art: | Models: "
+authors="Nexus_Developer"
+
+[[mods]]
+modId="undersoul"
+version="${file.jarVersion}"
+displayName="UnderSoul"
+description='''
+UnderSoul is a mod that aims to create an opposite of the overworld.
+'''
+
+[[dependencies.undersoul]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.undersoul]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"

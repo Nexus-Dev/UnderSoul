@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "undersoul:block/cracked_soul_stone_bricks"
+  }
+}

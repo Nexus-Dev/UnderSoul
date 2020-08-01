@@ -1,0 +1,19 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "undersoul:block/chiseled_soul_stone_bricks",
+    "all": "undersoul:block/chiseled_soul_stone_bricks",
+    "0": "undersoul:block/activated_chiseled_soul_stone_bricks",
+    "1": "undersoul:block/activated_chiseled_soul_stone_bricks",
+    "2": "undersoul:block/activated_chiseled_soul_stone_bricks"
+  },
+  "layers": {
+    "cutout": {
+      "textures": {
+        "2": "undersoul:block/activated_chiseled_soul_stone_bricks",
+        "all": "undersoul:block/chiseled_soul_stone_bricks"
+      }
+    }
+  }
+}
